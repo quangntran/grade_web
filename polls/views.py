@@ -74,4 +74,5 @@ def view_LO(request, question_id):
     print(file_path)
     r = robjects.r
     r['source'](file_path)
+    # path_to_graph = os.path.join(settings.BASE_DIR, 'polls/graphs/highchart.html')
     return render(request, 'polls/view_LO.html')

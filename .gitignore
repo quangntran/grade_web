@@ -3,5 +3,6 @@ sample_data_for_reporting.csv
 report.html
 *.csv
 polls/graphs/*
+polls/templates/polls/graphs/*
 web
 polls/r_files/*
